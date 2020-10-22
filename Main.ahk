@@ -260,7 +260,6 @@ Return
 ^w:: ; Duplicate and renames ### NOT WORKING ###
     Sleep, 100
     Send, ^r
-    Send, ^a
     Send, ^c
     Sleep 100
     ClipWait, 2, 1
