@@ -258,26 +258,3 @@ Return
 Return
 
 ^#\::ExitApp
-
-; ^w:: ; Duplicate and renames ### NOT WORKING ###
-;     Sleep, 100
-;     Send, ^r
-;     Send, ^c
-;     Sleep 100
-;     ClipWait, 2, 1
-;     cb := Clipboard
-;     Send, {Enter}
-;     Send, ^d
-;     Sleep, 1000
-;     NrString := StrSplit(cb, "#")
-;     Length := StrLen(NrString[2])
-;     Base := NrString[1]
-;     NrVar := NrString[2]
-;     Nrvar2 := NrVar+1
-;     Send, ^r
-;     Send, ^a
-;     Send %Base%
-;     Send {Raw}#
-;     Send %Nrvar2%
-;     Send, {Enter}
-; Return
