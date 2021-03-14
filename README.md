@@ -7,12 +7,12 @@ I've created this script to get more keyboard shortcuts in Ableton, adding featu
 
 ## Instalation
 
-Install Autohotkey and run Main.ahk
+Download [here](https://github.com/fdebkowski/Ableton-AHK/releases/tag/1.0) and install Autohotkey and run Main.ahk
 If you want to change predefined shortcut keys or plugins, you can do it in any text editor. Key list for Autohotkey can be found [here](https://www.autohotkey.com/docs/KeyList.html/)
 
 ## Controls
 
-\` & 1 - Automate third party plugin (Select plugin, hover over parameter to automate and press hotkey)  
+\` & 1 - Automate third party plugin (Select plugin, click on "Configure" button, hover over parameter to automate and press hotkey)  
 \` & a - Quick Show Piano Roll  (This hotkey works only if piano roll/clip view is minimised or maximised)
 \` & z - Fast Open Groups (Hover over group and press hotkey to open)  
 \` & 2 - Automate Ableton plugins (Hover over Ableton plugin parameter and press hotkey to automate it)  
