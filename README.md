@@ -23,6 +23,8 @@ Tab - Tab to Shift Tab for quick switching between piano roll/effects
 
 Automatic function: When cursor is moved to the left side browser automatically opens
 
+If you want to change predefined shortcut keys or plugins, you can do it in any text editor. Key list for Autohotkey can be found [here](https://www.autohotkey.com/docs/KeyList.htm)
+
 ## Additional info
 
 Feel free to send me pull requests :)
