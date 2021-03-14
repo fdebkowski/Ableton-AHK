@@ -86,13 +86,13 @@ Return
 Tab::+Tab ; Tab to Shift Tab for quick switching between piano roll/effects
 Return
 
-XButton2 & x::!u ; Quick show/hide all tracks
+` & x::!u ; Quick show/hide all tracks
 Return
 
-XButton2 & w::^!b ;Quick Show browser
+` & w::^!b ;Quick Show browser
 Return
 
-XButton2 & a:: ; Quick Show Piano Roll
+` & a:: ; Quick Show Piano Roll
     MouseGetPos,,,guideUnderCursor
     WinGetTitle, WinTitle, ahk_id %guideUnderCursor%
     if(InStr(WinTitle, "Ableton") != 0){
@@ -116,7 +116,7 @@ XButton2 & a:: ; Quick Show Piano Roll
     }
 Return
     
-XButton2 & z:: ; Fast Open Groups
+` & z:: ; Fast Open Groups
     MouseGetPos,,,guideUnderCursor
     WinGetTitle, WinTitle, ahk_id %guideUnderCursor%
     if(InStr(WinTitle, "Ableton") != 0){
@@ -248,7 +248,7 @@ F13:: ; Browser Hider
     CoordMode, Mouse, Window
 Return
 
-XButton2 & d:: ; Show/Hide Plugin Windows
+` & d:: ; Show/Hide Plugin Windows
     WinActivate, ahk_class Ableton Live Window Class
     Sleep, 50
     Send ^!p
