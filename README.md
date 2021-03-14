@@ -7,8 +7,7 @@ I've created this script to get more keyboard shortcuts in Ableton, adding featu
 
 ## Instalation
 
-Download [here](https://github.com/fdebkowski/Ableton-AHK/releases/tag/1.0) and install Autohotkey and run Main.ahk
-If you want to change predefined shortcut keys or plugins, you can do it in any text editor. Key list for Autohotkey can be found [here](https://www.autohotkey.com/docs/KeyList.html/)
+Download [here](https://github.com/fdebkowski/Ableton-AHK/releases/tag/1.0) .exe file and run
 
 ## Controls
 
